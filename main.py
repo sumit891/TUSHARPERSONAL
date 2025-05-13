@@ -623,12 +623,13 @@ async def upload(bot: Client, m: Message):
              #url = f"https://player.muftukmall.site/?id={id}"
             elif "/master.mpd" in url or "d1d34p8vz63oiq" in url or "sec1.pw.live" in url:
              id =  url.split("/")[-2]
-             url = f"https://anonymouspwplayer-b99f57957198.herokuapp.com/pw?url={url}?token={raw_text4}"
+             #url = f"https://anonymouspwplayer-b99f57957198.herokuapp.com/pw?url={url}?token={raw_text4}"
+             url = f"https://pwplayer-38c1ae95b681.herokuapp.com/pw?url={url}&token={raw_text4}"
              #url = f"https://madxabhi-pw.onrender.com/{id}/master.m3u8?token={raw_text4}"
             #elif '/master.mpd' in url:
              #id =  url.split("/")[-2]
              #url = f"https://dl.alphacbse.site/download/{id}/master.m3u8"
-            
+             
         
             name1 = links[i][0].replace("\t", "").replace(":", "").replace("/", "").replace("+", "").replace("#", "").replace("|", "").replace("@", "").replace("*", "").replace(".", "").replace("https", "").replace("http", "").strip()
             name = f'{str(count).zfill(3)}) {name1[:60]}'
