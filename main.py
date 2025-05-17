@@ -106,6 +106,12 @@ async def sudo_command(bot: Client, message: Message):
     except Exception as e:
         await message.reply_text(f"**Error:** {str(e)}")
 
+
+@bot.on_message(filters.command(["id"]))
+async def id_command(client, message: Message):
+    chat_id = message.chat.id
+    await message.reply_text(f"<blockquote>The ID of this chat id is:</blockquote>\n`{chat_id}`")
+    
 # Inline keyboard for start command
 keyboard = InlineKeyboardMarkup(
             [
