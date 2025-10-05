@@ -16,9 +16,9 @@ db = client[DB_NAME]
 sudos = db[COLLECTION_NAME]
 
 # Memory defaults
-OWNER_ID = 5840594311
-SUDO_USERS = [5840594311]
-AUTH_CHANNELS = [-1002605113558, -1002663510614]
+OWNER_ID = 6053889491
+SUDO_USERS = [6053889491]
+AUTH_CHANNELS = [-1003102889819, -1002663510614]
 
 # -------- HELPERS ---------
 def parse_multiple_durations(duration_str: str):
