@@ -2,7 +2,6 @@
 {
     "name": "anonymous",
     "description": "anonymous",
-    "repository": "https://github.com/",
     "keywords": [
         "telegram bot",
         "pyrogram"
@@ -18,11 +17,11 @@
         },
         "BOT_TOKEN":{
             "description":"Get from BotFather",
-            "value":"7559250442:AAF_HDC3Fb_yG6xHxXkRhhwlMm3LiwT9MkE"
+            "value":"8267941189:AAHtDcj__QeSqzm-g4HzfL7JTux0hSDzry0"
         },
         "AUTH_USERS":{
             "description":"Admin/Owner/Friends ID Seperate by ','  Ex: 44578878,8878899",
-             "value":"8172163893"
+             "value":"6053889491"
        
 	}
     },
